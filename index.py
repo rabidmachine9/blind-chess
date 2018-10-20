@@ -42,6 +42,8 @@ def execute_command(command):
 	elif command == 'undo':
 		board.pop()
 		board.pop()
+		moves.pop()
+		moves.pop()
 		print('Undid last move!')
 	elif command == 'board':
 		print(board)
